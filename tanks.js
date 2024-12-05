@@ -5,19 +5,19 @@ canvas.height = 550;
 
 //Load images
 const bg_img = new Image();
-bg_img.src = 'http://localhost:8000/bg.png';
+bg_img.src = 'https://raw.githubusercontent.com/Swillycoder/Tanks/main/bg.png';
 
 const bullet = new Image();
-bullet.src = 'http://localhost:8000/fireball_sml.png';
+bullet.src = 'https://raw.githubusercontent.com/Swillycoder/Tanks/main/fireball_sml.png';
 
 const tank_img = new Image();
-tank_img.src = 'http://localhost:8000/tank_sml.png';
+tank_img.src = 'https://raw.githubusercontent.com/Swillycoder/Tanks/main/tank_sml.png';
 
 const turret_img = new Image();
-turret_img.src = 'http://localhost:8000/turret_sml.png';
+turret_img.src = 'https://raw.githubusercontent.com/Swillycoder/Tanks/main/turret_sml.png';
 
 const enemy_img = new Image();
-enemy_img.src = 'http://localhost:8000/enemy_sml.png';
+enemy_img.src = 'https://raw.githubusercontent.com/Swillycoder/Tanks/main/enemy_sml.png';
 
 let leftMousePressed = false;
 let rightMousePressed = false;
